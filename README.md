@@ -1,3 +1,5 @@
+[![Open Source Society University - Computer Science](https://img.shields.io/badge/OSSU-computer--science-blue.svg)](https://github.com/ossu/computer-science)
+
 The fifth and last course of the Coursera Functional Programming in Scala Specialization.
 
 Interactively views temperatures and deviations all over the world from 1975 to 2015.
