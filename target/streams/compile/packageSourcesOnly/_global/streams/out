@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/bora/Desktop/SPEC/C5/observatory/target/scala-2.12/capstone-observatory_2.12-0.1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	observatory/package.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bora/Desktop/SPEC/C5/observatory/src/main/scala/observatory/package.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	observatory/Interfaces.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bora/Desktop/SPEC/C5/observatory/src/main/scala/observatory/Interfaces.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	observatory/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bora/Desktop/SPEC/C5/observatory/src/main/scala/observatory/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	observatory/Interaction2.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bora/Desktop/SPEC/C5/observatory/src/main/scala/observatory/Interaction2.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	observatory/Signal.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bora/Desktop/SPEC/C5/observatory/src/main/scala/observatory/Signal.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	observatory/Visualization2.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bora/Desktop/SPEC/C5/observatory/src/main/scala/observatory/Visualization2.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	observatory/Interaction.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bora/Desktop/SPEC/C5/observatory/src/main/scala/observatory/Interaction.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	observatory/Manipulation.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bora/Desktop/SPEC/C5/observatory/src/main/scala/observatory/Manipulation.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	observatory/Extraction.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bora/Desktop/SPEC/C5/observatory/src/main/scala/observatory/Extraction.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	observatory/Grading.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bora/Desktop/SPEC/C5/observatory/src/main/scala/observatory/Grading.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	observatory/models.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bora/Desktop/SPEC/C5/observatory/src/main/scala/observatory/models.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	observatory/Visualization.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bora/Desktop/SPEC/C5/observatory/src/main/scala/observatory/Visualization.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

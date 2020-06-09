@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/bora/Desktop/SPEC/C5/observatory/src/main/scala/observatory/Interaction.scala:157:13: local val latRad in value location is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m        val latRad = atan(sinh(pi*(1.0 - 2.0*y_pos/n)))[0m
+[0m[[0m[33mwarn[0m] [0m[0m            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

@@ -1,0 +1,258 @@
+;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/home/bora/.local/share/JetBrains/IdeaIC2020.1/Scala/repo/org.jetbrains/sbt-structure-extractor/scala_2.12/sbt_1.0/2018.2.1+4-88400d3f/jars/sbt-structure-extractor.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+compile
+;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/home/bora/.local/share/JetBrains/IdeaIC2020.1/Scala/repo/org.jetbrains/sbt-structure-extractor/scala_2.12/sbt_1.0/2018.2.1+4-88400d3f/jars/sbt-structure-extractor.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+test
+compile
+test
+compile
+test
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+scala
+console
+compile
+test
+compile
+test
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+console
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+console
+compile
+console
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+test
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+submit borabosna@pm.me abMdPQ3WUuM8dPOH
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+test
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me ibb4askZ0xDOhNus
+compile
+submit borabosna@pm.me QeO7hwQaztyag7Mt
+compile

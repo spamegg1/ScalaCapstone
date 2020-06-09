@@ -1,0 +1,30 @@
+[0m[[0m[0mdebug[0m] [0m[0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0m[0mdebug[0m] [0m[0mWaiting for thread run-main-2 to terminate.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.3.1:compile for Scala 2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.3.1:compile for Scala 2.12.8[0m
+[0m[[0m[0minfo[0m] [0m[0mStarting scala interpreter...[0m
+[0m[[0m[31merror[0m] [0m[0m(Thread-57) java.io.IOException: Input/output error[0m
+[0m[[0m[31merror[0m] [0m[0mjava.io.IOException: Input/output error[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.io.FileInputStream.read0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.io.FileInputStream.read(FileInputStream.java:231)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:245)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.internal.InputStreamReader.read(InputStreamReader.java:257)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.internal.InputStreamReader.read(InputStreamReader.java:194)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2151)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2141)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.console.ConsoleReader.readBinding(ConsoleReader.java:2226)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2467)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2378)[0m
+[0m[[0m[31merror[0m] [0m[0m	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2366)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.jline.InteractiveReader.readOneLine(JLineReader.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.InteractiveReader.readLine(InteractiveReader.scala:45)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.InteractiveReader.readLine$(InteractiveReader.scala:42)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.jline.InteractiveReader.readLine(JLineReader.scala:32)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.SplashReader.readLine(InteractiveReader.scala:154)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.tools.nsc.interpreter.SplashLoop.run(InteractiveReader.scala:82)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:834)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Thread run-main-2 exited.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0m[0mdebug[0m] [0m[0mNot interrupting system thread Thread[process reaper,10,system][0m
+[0m[[0m[0mdebug[0m] [0m[0mSandboxed run complete..[0m
+[0m[[0m[0mdebug[0m] [0m[0mExited with code 0[0m

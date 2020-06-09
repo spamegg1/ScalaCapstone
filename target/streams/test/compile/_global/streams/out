@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/bora/Desktop/SPEC/C5/observatory/src/test/scala/observatory/VisualizationTest.scala:6:15: private val milestoneTest in trait VisualizationTest is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  private val milestoneTest = namedMilestoneTest("raw data display", 2) _[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
