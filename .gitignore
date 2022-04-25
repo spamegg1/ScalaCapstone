@@ -1,0 +1,12 @@
+.idea/
+.vscode/
+sml.json
+*.pyc
+.scalafix.conf
+*.dat
+target/
+project/target/
+project/project/
+resources/
+.bsp/
+*.log
