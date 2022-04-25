@@ -129,7 +129,9 @@ import scala.io.Source
   * */
 
 object Extraction extends ExtractionInterface {
-  Logger.getLogger("org.apache.spark").setLevel(Level.WARN)
+  Logger
+    .getLogger("org.apache.spark")
+    .setLevel(Level.WARN)
 
   val conf: SparkConf =
     new SparkConf()
@@ -149,10 +151,11 @@ object Extraction extends ExtractionInterface {
         .getClass
         .getResourceAsStream(resource)
 
-    sc.makeRDD(Source
-      .fromInputStream(fileStream)
-      .getLines
-      .toSeq)
+    sc.makeRDD(
+      Source
+        .fromInputStream(fileStream)
+        .getLines
+        .toSeq)
   }
 
   /**
@@ -172,23 +175,22 @@ object Extraction extends ExtractionInterface {
       getRDDFromResource(stationsFile)                 // this is for the grader
         //sc.textFile(stationsFile)           // this is to run on local machine
         .map(line => line.split(",", -1))       // prevent dropping trailing ""s
-        .filter{             // filter out stations with missing GPS coordinates
-          case Array(_, _, "", _) => false
-          case Array(_, _, _, "") => false
-          case _ => true
-        }
-        .map(a =>
-          ( (a(0), a(1)), Location(a(2).toDouble, a(3).toDouble) )
-        )
+        .filter {
+          case Array(_, _, "", _) => false           // filter out stations with
+          case Array(_, _, _, "") => false            // missing GPS coordinates
+          case _                  => true }
+        .map(a => (
+          (a(0), a(1)), Location(a(2).toDouble, a(3).toDouble)
+        ))
 
     val tempRDD: RDD[((String, String), (LocalDate, Temperature))] =
       getRDDFromResource(temperaturesFile)             // this is for the grader
         //sc.textFile(temperaturesFile)               // to run on local machine
         .map(line => line.split(",", -1))       // prevent dropping trailing ""s
-        .map(a =>
-          ( (a(0), a(1)),
-            (LocalDate.of(year, a(2).toInt, a(3).toInt), a(4).toDouble) )
-        )
+        .map(a => (
+          (a(0), a(1)),
+          (LocalDate.of(year, a(2).toInt, a(3).toInt), a(4).toDouble)
+        ))
 
     statRDD
       .join(tempRDD)
@@ -199,17 +201,17 @@ object Extraction extends ExtractionInterface {
   }
 
   /**
-    * @param records A sequence containing triplets (date, location, temperature)
+    * @param records A sequence containing triples (date, location, temperature)
     * @return A sequence containing, for each location, 
     *         the average temperature over the year.
     */
   def locationYearlyAverageRecords(
       records: Iterable[(LocalDate, Location, Temperature)])
-      : Iterable[(Location, Temperature)] = {
+      : Iterable[(Location, Temperature)] =
     records
       .groupBy(_._2)                                        // group by location
       .mapValues(iter => iter.map(_._3))            // get ONLY the temperatures
       .mapValues(iter => iter.sum / iter.size)   // sum and average temperatures
-  }
+
 
 }
