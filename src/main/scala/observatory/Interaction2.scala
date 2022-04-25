@@ -3,15 +3,17 @@ package observatory
 /**
   * 6th (and last) milestone: user interface polishing
   *
-  * This (last!) milestone consists in implementing an interactive user interface so that
-  * users can select which data set (either the temperatures or the deviations)
-  * as well as which year they want to observe.
+  * This (last!) milestone consists in implementing an interactive user
+  * interface so that users can select which data set (either the temperatures
+  * or the deviations) as well as which year they want to observe.
   *
-  * We provide a sub-project, capstoneUI, which contains the actual user interface implementation.
+  * We provide a sub-project, capstoneUI, which contains the actual user
+  * interface implementation.
   * This sub-project uses the methods you are going to implement.
   *
-  * Last but not least, you will use the tiles that you previously generated for the temperatures
-  * and the deviations, so check that you had not deleted them from your file system!
+  * Last but not least, you will use the tiles that you previously generated
+  * for the temperatures and the deviations,
+  * so check that you had not deleted them from your file system!
   *
   *
   * ******
@@ -19,7 +21,7 @@ package observatory
   * ******
   * This milestone introduces the concept of Layers.
   * A Layer describes the additional information shown on a map.
-  * In your case, you will have two layers: one showing the temperatures over time,
+  * In your case, you will have two layers: one showing temperatures over time,
   * and one showing the temperature deviations over time.
   *
   * You will have to implement the following method:
@@ -28,10 +30,10 @@ package observatory
   * This method returns the layers you want the user to be able to visualize.
   * Each layer has a name, a color scale and a range of supported years.
   *
-  * The user interface implementation will use your availableLayers to build buttons
-  * allowing to choose which layer to enable.
-  * The value over time of the enabled layer is represented by a Signal[Layer] value
-  * (the same Signal as in the progfun2 course).
+  * The user interface implementation will use your availableLayers to build
+  * buttons allowing to choose which layer to enable.
+  * The value over time of the enabled layer is represented by a Signal[Layer]
+  * value (the same Signal as in the progfun2 course).
   *
   *
   * *******
@@ -49,8 +51,8 @@ package observatory
   *     x()= x() + 1       // Change x’s value
   *     println(x())       // “1”
   *
-  * Signals can depend on other Signals. In such a case, when the value of a Signal changes,
-  * the Signals that depend on it are automatically updated:
+  * Signals can depend on other Signals. In such a case, when the value of a
+  * Signal changes, the Signals that depend on it are automatically updated:
   *     val x = Signal(0)
   *     val y = Signal(x() * 2)  // y depends on x’s value
   *     println(y())             // “0”
@@ -58,12 +60,14 @@ package observatory
   *     println(y())             // “2”
   *
   * Note that, in the above example, if we didn’t want to introduce a dependency
-  * between x and y we would have to first capture the current value of x in a usual val:
+  * between x and y we would have to first capture the 
+  * current value of x in a usual val:
   *     val x = Signal(0)
   *     val currentX = x()            // currentX is a stable value
-  *     val y = Signal(currentX * 2)  // y is initialized with currentX’s value, but does not depend on x
-  *     x()= x() + 1
-  *     println(y())                  // “0” (the update of x did not trigger an update on y)
+  *     val y = Signal(currentX * 2)  // y is initialized with currentX’s value,
+  *                                   // but does not depend on x
+  *     x() = x() + 1
+  *     println(y())         // “0” (update of x did not trigger an update on y)
   *
   *
   * ********************

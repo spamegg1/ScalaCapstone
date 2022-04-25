@@ -1,4 +1,80 @@
-[0m[[0m[33mwarn[0m] [0m[0m/home/bora/Desktop/SPEC/C5/observatory/src/main/scala/observatory/Interaction.scala:157:13: local val latRad in value location is never used[0m
-[0m[[0m[33mwarn[0m] [0m[0m        val latRad = atan(sinh(pi*(1.0 - 2.0*y_pos/n)))[0m
-[0m[[0m[33mwarn[0m] [0m[0m            ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m/media/bora/CrucialMX100/REPOS/ScalaCapstone/src/main/scala/observatory/Interaction.scala:3:12: object sksamuel is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.sksamuel.scrimage.{Image, Pixel}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/media/bora/CrucialMX100/REPOS/ScalaCapstone/src/main/scala/observatory/Interaction.scala:133:25: not found: type Image[0m
+[0m[[0m[31merror[0m] [0m[0m           tile: Tile): Image = {[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/media/bora/CrucialMX100/REPOS/ScalaCapstone/src/main/scala/observatory/Interfaces.scala:3:12: object sksamuel is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.sksamuel.scrimage.Image[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/media/bora/CrucialMX100/REPOS/ScalaCapstone/src/main/scala/observatory/Interfaces.scala:28:114: not found: type Image[0m
+[0m[[0m[31merror[0m] [0m[0m  def tile(temperatures: Iterable[(Location, Temperature)], colors: Iterable[(Temperature, Color)], tile: Tile): Image[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/media/bora/CrucialMX100/REPOS/ScalaCapstone/src/main/scala/observatory/Interaction.scala:140:27: not found: type Pixel[0m
+[0m[[0m[31merror[0m] [0m[0m    val pixelArray: Array[Pixel] =[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/media/bora/CrucialMX100/REPOS/ScalaCapstone/src/main/scala/observatory/Interaction.scala:146:23: not found: value Pixel[0m
+[0m[[0m[31merror[0m] [0m[0m        .map(color => Pixel(color.red, color.green, color.blue, 127))[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/media/bora/CrucialMX100/REPOS/ScalaCapstone/src/main/scala/observatory/Interaction.scala:149:5: not found: value Image[0m
+[0m[[0m[31merror[0m] [0m[0m    Image(256, 256, pixelArray)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/media/bora/CrucialMX100/REPOS/ScalaCapstone/src/main/scala/observatory/Interaction.scala:3:31: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.sksamuel.scrimage.{Image, Pixel}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/media/bora/CrucialMX100/REPOS/ScalaCapstone/src/main/scala/observatory/Interaction.scala:3:38: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.sksamuel.scrimage.{Image, Pixel}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/media/bora/CrucialMX100/REPOS/ScalaCapstone/src/main/scala/observatory/Interfaces.scala:17:109: not found: type Image[0m
+[0m[[0m[31merror[0m] [0m[0m  def visualizeGrid(grid: GridLocation => Temperature, colors: Iterable[(Temperature, Color)], tile: Tile): Image[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/media/bora/CrucialMX100/REPOS/ScalaCapstone/src/main/scala/observatory/Interfaces.scala:23:107: not found: type Image[0m
+[0m[[0m[31merror[0m] [0m[0m  def visualize(temperatures: Iterable[(Location, Temperature)], colors: Iterable[(Temperature, Color)]): Image[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/media/bora/CrucialMX100/REPOS/ScalaCapstone/src/main/scala/observatory/Interfaces.scala:3:30: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.sksamuel.scrimage.Image[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/media/bora/CrucialMX100/REPOS/ScalaCapstone/src/main/scala/observatory/Visualization.scala:3:12: object sksamuel is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.sksamuel.scrimage.{Image, Pixel}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/media/bora/CrucialMX100/REPOS/ScalaCapstone/src/main/scala/observatory/Visualization.scala:208:58: not found: type Image[0m
+[0m[[0m[31merror[0m] [0m[0m                colors: Iterable[(Temperature, Color)]): Image = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/media/bora/CrucialMX100/REPOS/ScalaCapstone/src/main/scala/observatory/Visualization.scala:225:27: not found: type Pixel[0m
+[0m[[0m[31merror[0m] [0m[0m    val pixelArray: Array[Pixel] =[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/media/bora/CrucialMX100/REPOS/ScalaCapstone/src/main/scala/observatory/Visualization.scala:227:18: not found: value Pixel[0m
+[0m[[0m[31merror[0m] [0m[0m        color => Pixel(color.red, color.green, color.blue, 255))[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/media/bora/CrucialMX100/REPOS/ScalaCapstone/src/main/scala/observatory/Visualization.scala:230:5: not found: value Image[0m
+[0m[[0m[31merror[0m] [0m[0m    Image(360, 180, pixelArray)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/media/bora/CrucialMX100/REPOS/ScalaCapstone/src/main/scala/observatory/Visualization.scala:3:31: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.sksamuel.scrimage.{Image, Pixel}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/media/bora/CrucialMX100/REPOS/ScalaCapstone/src/main/scala/observatory/Visualization.scala:3:38: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.sksamuel.scrimage.{Image, Pixel}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/media/bora/CrucialMX100/REPOS/ScalaCapstone/src/main/scala/observatory/Visualization2.scala:3:12: object sksamuel is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.sksamuel.scrimage.{Image, Pixel}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/media/bora/CrucialMX100/REPOS/ScalaCapstone/src/main/scala/observatory/Visualization2.scala:131:6: not found: type Image[0m
+[0m[[0m[31merror[0m] [0m[0m  ): Image = {[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/media/bora/CrucialMX100/REPOS/ScalaCapstone/src/main/scala/observatory/Visualization2.scala:158:27: not found: type Pixel[0m
+[0m[[0m[31merror[0m] [0m[0m    val pixelArray: Array[Pixel] =[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/media/bora/CrucialMX100/REPOS/ScalaCapstone/src/main/scala/observatory/Visualization2.scala:160:9: not found: value Pixel[0m
+[0m[[0m[31merror[0m] [0m[0m        Pixel(color.red, color.green, color.blue, 127))[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/media/bora/CrucialMX100/REPOS/ScalaCapstone/src/main/scala/observatory/Visualization2.scala:163:5: not found: value Image[0m
+[0m[[0m[31merror[0m] [0m[0m    Image(256, 256, pixelArray)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/media/bora/CrucialMX100/REPOS/ScalaCapstone/src/main/scala/observatory/Visualization2.scala:3:31: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.sksamuel.scrimage.{Image, Pixel}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/media/bora/CrucialMX100/REPOS/ScalaCapstone/src/main/scala/observatory/Visualization2.scala:3:38: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.sksamuel.scrimage.{Image, Pixel}[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m7 warnings found[0m
+[0m[[0m[31merror[0m] [0m[0m19 errors found[0m
