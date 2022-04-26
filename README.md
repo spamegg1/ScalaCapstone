@@ -9,10 +9,6 @@ https://s3-eu-west-1.amazonaws.com/scala-capstone/index.html
 
 Temperature data (not included in repo, 444MB zip file) is from: http://alaska.epfl.ch/files/scala-capstone-data.zip
 
-```toc
-style: number min_depth: 0 max_depth: 6 
-```
-
 -   [Introduction](#Introduction)
     -   [Before you start coding](#Before-you-start-coding)
     -   [Notes for Spark users](#Notes-for-Spark-users)
