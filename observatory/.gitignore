@@ -14,3 +14,9 @@ logs/
 .vscode
 *.csv
 *.dat
+target/
+project/target/
+project/project/
+resources/
+.bsp/
+*.log
